@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bgcadr{
+    background-image: url(../download.jpeg);
+    background-size: cover;
+    box-sizing: border-box;
+    
+
+}
+
+@font-face {
+    font-family: noto;
+    src: url(../font/NotoSans.eot);
+    src: url(../font/NotoSans.ttf);
+    src: url(../font/NotoSans.woff);
+    src: url(../font/NotoSans.woff2);
+    src: url(../font/NotoSans-Bold.eot);
+    src: url(../font/NotoSans-Bold.ttf);
+    src: url(../font/NotoSans-Bold.woff);
+    src: url(../font/NotoSans-Bold.woff2);
+    src: url(../font/ObjectSans-Bold.woff);
+
+
+}
+
+*{
+    font-family: noto;
+}
+
+
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
